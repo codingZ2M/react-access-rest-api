@@ -1,0 +1,19 @@
+.airline-container {   
+    /* Flexbox is for one-dimensional layouts - anything that needs to be laid out in a straight line */ 
+      /* Defining a new Grid Container - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout */ 
+    display: flex;          
+      flex-direction: column;
+      background-color: #ffffff;
+      border: 1px solid #1b0370;
+      border-radius: 5px;
+      padding: 5px;
+      cursor: pointer;
+      transition: all .5s ease-out;
+      height: 120px;
+    }
+    
+    .airline-container:hover {
+        transform: translate(10px, -1%);
+      }
+      
+   

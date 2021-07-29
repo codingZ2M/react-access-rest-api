@@ -1,0 +1,15 @@
+.header-conatiner {
+    width: 85vw;
+    margin: 0 auto;
+
+      display: grid;
+      grid-template-columns: 300px 350px 350px 300px;
+      
+      grid-gap: 20px;
+      background-color: #fff;
+      color: #444;
+    }
+
+    h1{
+      color:  #1b0370;
+    }
